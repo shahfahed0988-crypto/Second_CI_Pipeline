@@ -12,4 +12,4 @@ def test_first_non_repeating_another():
 
 
 def test_no_non_repeating_character():
-    assert module.first_non_repeating("aabb") 
+    assert module.first_non_repeating("aabb") is None
